@@ -55,5 +55,11 @@ return require('packer').startup(function(use)
 	  {'L3MON4D3/LuaSnip'},     -- Required
   }
 }
+    
+    -- write `html:5` then Control + y and ,
+    use {
+        'mattn/emmet-vim'
+    }
+
 
 end)
